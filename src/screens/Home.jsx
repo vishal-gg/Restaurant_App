@@ -45,7 +45,7 @@ const Home = () => {
         <div className="basis-[10%] h-full text-white max-[1200px]:hidden"></div>
         <div style={{backgroundImage: 'url("assets/bg.jpg")'}} className="basis-[55%] max-920:grow bg-slate-500 h-full bg-cover bg-center bg-no-repeat bg-blend-multiply relative">
           <div
-            className={`text-white text-center space-y-5 max-[1055px]:space-y-3 absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 max-[1055px]:-translate-y-[70%] ${
+            className={`text-white text-center space-y-5 max-[1055px]:space-y-3 absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 max-[1055px]:-translate-y-[70%] max-500:-translate-y-1/2 ${
               selectedItem && "opacity-0 scale-90"
             } transition-all`}
           >
