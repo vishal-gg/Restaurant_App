@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* I have to do this way  */
+@media (width > 920px) {
+    .nav-ul {
+        height: auto !important;
+    }
+}
+
+img,
+svg {
+    max-width: 100%;
+    display: block;
+}
+
+* {
+    -webkit-tap-highlight-color: transparent;
+}
+
+body {
+    color-scheme: light;
+}
+
+.swiper {
+    overflow-x: clip !important;
+    overflow-y: visible !important;
+}
+.swiper-slide {
+    border-radius: 1rem;
+    overflow: hidden;
+}
+.swiper-pagination {
+    bottom: -4rem !important;
+}
+
+.swiper-pagination-bullet-active {
+    background: #cecece !important;
+}
+
+.swiper-pagination-bullet {
+    background: #1f1f1f !important;
+    height: .8rem !important;
+    width: .8rem !important;
+}
