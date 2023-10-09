@@ -33,8 +33,8 @@ const Timing = () => {
     <>
       <div id="service">
         <div
-        style={{ backgroundPositionY: -motionValue}}
-        ref={containerRef} className="bg-[url('assets/timing.jpg')] bg-cover bg-center text-white py-28 max-1200:py-20 relative">
+        style={{ backgroundPositionY: -motionValue, backgroundImage: 'url("assets/timing.jpg")'}}
+        ref={containerRef} className="bg-cover bg-center text-white py-28 max-1200:py-20 relative">
           <motion.div
           variants={{hidden: {}, show: {}}}
           initial="hidden"

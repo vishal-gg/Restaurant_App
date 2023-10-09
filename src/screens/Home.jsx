@@ -43,7 +43,7 @@ const Home = () => {
     >
       <div className="flex h-full w-[min(1700px,100%)] mx-auto relative overflow-hidden">
         <div className="basis-[10%] h-full text-white max-[1200px]:hidden"></div>
-        <div className="basis-[55%] max-920:grow bg-slate-500 h-full bg-landingPage bg-cover bg-center bg-no-repeat bg-blend-multiply relative">
+        <div className="basis-[55%] max-920:grow bg-slate-500 h-full bg-[url('assets/bg.jpg')] bg-cover bg-center bg-no-repeat bg-blend-multiply relative">
           <div
             className={`text-white text-center space-y-5 absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 ${
               selectedItem && "opacity-0 scale-90"
@@ -140,7 +140,7 @@ const Home = () => {
                 duration: 0.5,
               }}
               key={card.id}
-              className={`h-full max-920:h-[70%] max-500:hidden bg-black/70 bg-card bg-cover bg-no-repeat bg-center bg-blend-multiply p-2 relative cursor-pointer`}
+              className={`h-full max-920:h-[70%] max-500:hidden bg-black/70 bg-[url('assets/bg-card-3.jpg')] bg-cover bg-no-repeat bg-center bg-blend-multiply p-2 relative cursor-pointer`}
               style={{ aspectRatio: 1 }}
             >
               <div className="absolute inset-0 -z-10 backdrop-blur-[2px]"></div>
