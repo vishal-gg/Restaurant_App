@@ -5,7 +5,7 @@ This cool restaurant app was made with React. It's a demo that shows off what a 
 ![landingPage](/public/assets/landing_page.png)
 
 ### Live Demo
-Check out the app for yourself! <a href="https://eatopendoor.vercel.app">Live demo right here.</a>
+Check out the app for yourself! <a href="https://eatopendoor.vercel.app" target="_blank">Live demo right here.</a>
 
 ### Run locally
 ```
