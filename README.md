@@ -25,4 +25,4 @@ you would see 👀:
   ➜  press h to show help
 ```
 
-visit localhost on port 3000 and enjoy.
+visit localhost on port 3000 and have a look.
