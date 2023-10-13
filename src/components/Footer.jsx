@@ -121,7 +121,7 @@ const Footer = () => {
       </div>
       <div className="h-44 bg-black grid place-content-center">
         <img src="assets/logo-dark.png" className="mx-auto" />
-        <p className="text-zinc-600 text-center mt-4 max-600:text-xs">2023 ALL RIGHT RESERVED. DESIGNED BY <span className="text-orange-300"><a href="https://github.com/vishal-gg" target="_blank" style={{all: 'unset'}}>VISHAL</a> & <a href="https://github.com/ajitsah87" target="_blank" style={{all: 'unset'}}>AJIT</a></span></p>
+        <p className="text-zinc-600 text-center mt-4 max-600:text-xs">2023 ALL RIGHT RESERVED. DESIGNED BY<span className="text-orange-300"><a href="https://github.com/vishal-gg" target="_blank" style={{all: 'unset', cursor: 'pointer'}}>{" "}<span className="hover:underline">VISHAL</span></a> & <a href="https://github.com/ajitsah87" target="_blank" style={{all: 'unset', cursor: 'pointer'}} className="hover:text-white"><span className="hover:underline">AJIT</span></a></span></p>
       </div>
     </div>
   )

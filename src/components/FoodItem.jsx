@@ -54,8 +54,8 @@ const FoodItem = ({ category, title, titleBg }) => {
           >
             <img src={item.img} className="h-full w-full object-cover" />
             <div className="absolute left-0 right-0 bottom-0 h-[30%] group-hover:h-full transition-all duration-500 ease-in-out bg-black/70 text-2xl max-920:text-lg max-600:text-2xl font-FjallaOne grid place-content-center justify-items-center space-y-2 max-920:space-y-0">
-              <h4>FOOD NAME</h4>
-              <p>$79.99</p>
+              <h4>{item.name}</h4>
+              <p>{item.amount}</p>
               <div className="h-0 opacity-0 group-hover:h-[75px] group-hover:opacity-100 duration-500 ease-in-out overflow-hidden transition-all">
                 <div className="flex justify-center mb-4">
                   {[1, 2, 3, 4, 5].map((i) => (

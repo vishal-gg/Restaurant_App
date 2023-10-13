@@ -83,7 +83,7 @@ const News = () => {
           </motion.div>
         ))}
       </div>
-      <div className="w-full mt-36">
+      {/* <div className="w-full mt-36">
         <iframe
           title="Google Map"
           width="100%"
@@ -92,7 +92,7 @@ const News = () => {
         >
           <a href="https://www.maps.ie/population/">Population mapping</a>
         </iframe>
-      </div>
+      </div> */}
     </div>
   );
 };
