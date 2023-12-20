@@ -19,6 +19,7 @@ Check out the app for yourself! <a href="https://eatopendoor.vercel.app" target=
 2. Smooth Scroll
 3. Scroll Animations
 4. Beautiful & Responsive Design
+5. you'll get to see delicious food 😋.
 
 ## Run locally 💻
 ```bash
